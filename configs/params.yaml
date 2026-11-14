@@ -1,0 +1,6 @@
+split:
+  seed: 42
+  test_rows: 1000
+  batch3_rows: 1000
+  batch2_rows: 1500
+  target: Churn
