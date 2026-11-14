@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# DVC takip edeceği veriler (DVC kendi .gitignore'unu ekler, burası ek güvence)
+/data/processed/*
+!data/raw/.gitkeep
+/models/*
+!models/.gitkeep
