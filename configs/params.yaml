@@ -4,3 +4,14 @@ split:
   batch3_rows: 1000
   batch2_rows: 1500
   target: Churn
+
+train:
+  seed: 42
+  model_type: logistic_regression   # logistic_regression | random_forest
+  logistic_regression:
+    C: 1.0
+    max_iter: 1000
+  random_forest:
+    n_estimators: 300
+    max_depth: 12
+    min_samples_leaf: 3
